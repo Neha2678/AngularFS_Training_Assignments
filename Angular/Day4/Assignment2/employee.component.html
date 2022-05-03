@@ -1,0 +1,20 @@
+<table border="2px" style=" margin-left: 20%;margin-bottom: auto;margin-right: 20%;margin-top: auto;">
+    <thead>
+        <th>Employee ID</th>
+        <th>Employee Name</th>
+        <th>Employee Job</th>
+        <th>Employee Salary</th>
+        <th>Employee Dept.Id</th>
+
+
+    </thead>
+    <tbody>
+        <tr *ngFor = "let item of emp_list">
+            <td>{{item.eId}}</td>
+            <td>{{item.eName}}</td>
+            <td>{{item.eJob}}</td>
+            <td>{{item.eSalary}}</td>
+            <td>{{item.eDeptno}}</td>
+        </tr>
+    </tbody>
+</table>
